@@ -1,26 +1,37 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="demo.xsl"?>
 <root>
-  <env>
-    <domain>local</domain>
-  </env>
-  <p>
-    <title>demo page</title>
-    <desc>this is deme page</desc>
-    <owner>openxsl</owner>
-    <icon>//oxm1.cc/img/app_default.png</icon>
-  </p>
-  <data>
+    <env>
+        <domain>local</domain>
+    </env>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
         <options>
-        <i>
-            <text>
-                car
-            </text>
-            <value>
-                tough laptop
-            </value>
-        </i>
-    </options>
-  </data>
+            <i>
+                <text>weixinpay</text>
+                <value>weixinpay</value>
+            </i>
+            <i>
+                <text>alipay</text>
+                <value>alipay</value>
+            </i>
+            <i>
+                <text>applepay</text>
+                <value>applepay</value>
+            </i>
+        </options>
+        <order>
+            <id>12345</id>
+            <price>12300</price>
+            <title>好时（Hershey’s）好时kisses臻吻巧克力 浪漫满屋 京东限量定制礼盒 90g</title>
+            <img>http://i.oxm1.cc/uploads/git/wurui/img/2aj4ikjxcTj07uh1sgRtjukA8ob-667.jpg</img>
+            <detail>{}</detail>
+        </order>
+    </data>
 
 </root>

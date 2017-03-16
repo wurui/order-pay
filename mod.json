@@ -1,6 +1,6 @@
 {
   "name": "order-pay",
   "version": "1.0.0",
-  "apiDependencies": ["options"]
+  "apiDependencies": ["options","order"]
 }
 

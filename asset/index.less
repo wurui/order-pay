@@ -1,0 +1,101 @@
+.oxmod-order-pay {
+  /* CSS */
+  //background-color: #f5f5f5;
+  .product{
+    background-color: #f9f9f9;
+    padding:10px 30px 10px 120px;
+    overflow: hidden;
+    box-shadow: 1px 2px 2px #ccc;
+    .price{
+      font-weight: 400;
+      color:#f20;
+      line-height: 2;
+      font-size:20px;
+    }
+    .title{
+      font-weight: 400;
+      font-size:14px;
+      font-weight: 400;
+      color:#333;
+      margin-bottom: 10px;
+    }
+
+    .mainpic{
+      float:left;
+      margin-left:-90px;
+      margin-top:10px;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      background-color: #fff;
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+    }
+  }
+  .payment-title{
+    color:#333;
+    font-size:14px;
+    font-weight: 400;
+    margin:20px 10px 10px 10px;
+  }
+  .payment{
+    background-color: #fff;
+
+    >li{
+      padding:15px 10px;
+      min-height: 30px;
+      border-top:solid 1px #f5f5f5;
+      &:last-child{
+       // border-top-style:none;
+        border-bottom:solid 1px #f5f5f5;
+      }
+    }
+  }
+  .pay-alipay,.pay-weixinpay,.pay-applepay{
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    display: inline-block;
+    height:30px;
+    line-height: 30px;
+    background-size: contain;
+    width:95%;
+    text-align: right;
+    input{
+      vertical-align: middle;
+      width:24px;
+      height: 24px;
+      border-radius: 50%;
+    }
+  }
+  .pay-alipay{
+    background-image: url(http://i.oxm1.cc/uploads/git/wurui/img/2aj0at88lTj0c28dh7R2335Am5w-355.jpg@!w120);
+  }
+  .pay-weixinpay{
+    background-image: url(http://i.oxm1.cc/uploads/git/wurui/img/2aj0kibxjTj0bsj9s9R0vbbA3ij-298.png);
+  }
+  .pay-applepay{
+    background-image: url(http://i.oxm1.cc/uploads/git/wurui/img/2aj0at8unTj0c28cv5Rwe6fA7dh-612.png@!w120);
+    &:before{
+      content: 'Apply Pay';
+      float:left;
+      margin-left:70px;
+      color:#555;
+    }
+  }
+
+  .bt-submit{
+    width:100%;
+    height:40px;
+    background-color: #f60;
+    color:#fff;
+    border:solid 1px #f99;
+    border-radius: 10px;
+    font-size:16px;
+    box-shadow: 1px 1px 2px #ccc;
+  }
+  .op{
+    padding:20px 10px;
+  }
+}
