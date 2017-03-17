@@ -3,7 +3,7 @@
 }
 .oxmod-order-pay .product {
   background-color: #f9f9f9;
-  padding: 10px 30px 10px 120px;
+  padding: 10px 30px 10px 100px;
   overflow: hidden;
   box-shadow: 1px 2px 2px #ccc;
 }
@@ -18,10 +18,11 @@
   font-weight: 400;
   color: #333;
   margin-bottom: 10px;
+  line-height: 1.4;
 }
 .oxmod-order-pay .product .mainpic {
   float: left;
-  margin-left: -90px;
+  margin-left: -80px;
   margin-top: 10px;
   display: inline-block;
   width: 60px;
