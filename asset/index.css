@@ -3,41 +3,53 @@
 }
 .oxmod-order-pay .product {
   background-color: #f9f9f9;
-  padding: 10px 30px 10px 100px;
+  padding: 10px 30px 10px 80px;
   overflow: hidden;
   box-shadow: 1px 2px 2px #ccc;
+  margin-bottom: 20px;
+  /*
+    .mainpic{
+      float:left;
+      margin-left:-80px;
+      margin-top:10px;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      background-color: #fff;
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+    }*/
+}
+.oxmod-order-pay .product .lbl {
+  float: left;
+  margin-left: -60px;
+  color: #999;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
 }
 .oxmod-order-pay .product .price {
   font-weight: 400;
   color: #f20;
-  line-height: 2;
+  line-height: 30px;
   font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: dashed 1px #ccc;
 }
 .oxmod-order-pay .product .title {
   font-size: 14px;
   font-weight: 400;
-  color: #333;
+  color: #555;
   margin-bottom: 10px;
   line-height: 1.4;
-}
-.oxmod-order-pay .product .mainpic {
-  float: left;
-  margin-left: -80px;
-  margin-top: 10px;
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  background-color: #fff;
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-radius: 50%;
 }
 .oxmod-order-pay .payment-title {
   color: #333;
   font-size: 14px;
   font-weight: 400;
-  margin: 20px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
 }
 .oxmod-order-pay .payment {
   background-color: #fff;
