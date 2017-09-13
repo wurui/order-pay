@@ -1,19 +1,27 @@
 define(['oxjs'], function (OXJS) {
     return {
         init: function ($mod) {
-            var f=$('form',$mod).on('submit',function(){
-                var param=OXJS.formToJSON(f);
-                console.log('form submit',param);
+            var payurl = $mod.attr('data-payurl');
 
-                OXJS.dbtool({
-                    dsname:'pay',
-                    method:'insert',
-                    data:param
-                },function(r){
-                    console.log(r);
-                });
-                return false;
-            })[0];
+            var syncAction = function () {
+                if(f.paymethod) {
+                    var paymethod = f.paymethod.value;
+                    if (!paymethod) {
+                        f.paymethod[0].checked = true;
+                    }
+                    paymethod = f.paymethod.value;
+                    //console.log('ssss',paymethod);
+                    f.action = payurl.replace(/\{paymethod\}/g, paymethod);
+                }else{
+                    $mod.html('<h3 class="error">无相应的支付方式</h3>')
+                }
+
+            };
+            var f = $('form', $mod).on('change', syncAction)[0];
+
+
+
+            syncAction();
 
 
         }

@@ -13,16 +13,16 @@
     <data>
         <options>
             <i>
-                <text>weixinpay</text>
-                <value>weixinpay</value>
+                <text>weixin</text>
+                <value>weixin</value>
             </i>
             <i>
                 <text>alipay</text>
                 <value>alipay</value>
             </i>
             <i>
-                <text>applepay</text>
-                <value>applepay</value>
+                <text>weixinh5</text>
+                <value>weixinh5</value>
             </i>
         </options>
         <order>
